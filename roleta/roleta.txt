@@ -1,0 +1,64 @@
+Configuration	roleta
+STM32CubeMX 	4.25.0
+Date	05/15/2018
+MCU	STM32L476VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PD6
+USART2	Asynchronous	USART2_TX	PD5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PC14-OSC32_IN (PC14)	GPIO_Output	TEMP
+9	PC15-OSC32_OUT (PC15)	GPIO_Output	NADAJNIK_RF
+23	PA0	GPIO_Input	JOY_CENTER [MT-008A_CENTER]
+24	PA1	GPIO_Input	JOY_LEFT [MT-008A_LEFT]
+25	PA2	GPIO_Input	JOY_RIGHT [MT-008A_RIGHT]
+26	PA3	GPIO_Input	JOY_UP [MT-008A_UP]
+30	PA5	GPIO_Input	JOY_DOWN [MT-008A_DOWN]
+37	PB2	GPIO_Output	LD_R [LED red]
+39	PE8	GPIO_Output	LD_G [LED_Green]
+41	PE10	GPIO_EXTI10	KONTAKTRON
+43	PE12	GPIO_Input	CLK_PIN
+44	PE13	GPIO_Output	DIR_PIN
+45	PE14	GPIO_Output	STEP_PIN
+46	PE15	GPIO_Input	DT_PIN
+86	PD5	USART2_TX	USART_TX
+87	PD6	USART2_RX	USART_RX
+89	PB3 (JTDO-TRACESWO)	GPIO_Input	ODBIORNIK_RF
+92	PB6	I2C1_SCL	
+93	PB7	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : roleta
+Project Folder : D:\projekty stm32cubemx\roleta
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_L4 V1.11.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : No
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+Radio_433.c:31:6:podstawa_czasowa_kominikacji	8	static
+Radio_433.c:54:6:obsluga_nadawania	8	static
+Radio_433.c:142:6:obsluga_odbierania_1	8	static
+Radio_433.c:268:6:obsluga_odbierania_2	8	static
+Radio_433.c:352:6:nadaj_433	16	static

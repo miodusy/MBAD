@@ -1,0 +1,13 @@
+main.c:79:5:_write	24	static
+main.c:84:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:90:6:HAL_GPIO_EXTI_Callback	16	static
+main.c:113:6:stepper_rotate	48	static
+main.c:159:6:pozycja0	8	static
+main.c:168:6:pozycja1	8	static
+main.c:178:6:pozycja2	8	static
+main.c:188:6:pozycja3	8	static
+main.c:196:6:rotateCW	8	static
+main.c:207:6:rotateCCW	8	static
+main.c:229:5:main	32	static
+main.c:401:6:SystemClock_Config	232	static
+main.c:473:6:_Error_Handler	16	static

@@ -1,0 +1,110 @@
+Configuration	swiatlo
+STM32CubeMX 	4.24.0
+Date	06/12/2018
+MCU	STM32L476VGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14 (JTCK-SWCLK)
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13 (JTMS-SWDIO)
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PD6
+USART2	Asynchronous	USART2_TX	PD5
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+15	PC0	GPIO_Input	
+18	PC3*	LCD_VLCD	
+23	PA0	GPIO_EXTI0	
+24	PA1	GPIO_EXTI1	Lewo
+25	PA2	GPIO_EXTI2	Prawo
+26	PA3	GPIO_EXTI3	Gora
+29	PA4	GPIO_EXTI4	
+30	PA5	GPIO_EXTI5	Dol
+31	PA6*	LCD_SEG3	
+32	PA7*	LCD_SEG4	
+33	PC4*	LCD_SEG22	
+34	PC5*	LCD_SEG23	
+35	PB0*	LCD_SEG5	
+36	PB1*	LCD_SEG6	
+37	PB2	GPIO_Output	LED1
+38	PE7*	SAI1_SD_B	
+39	PE8	GPIO_Output	LED2
+40	PE9*	SAI1_FS_B	
+41	PE10	GPIO_Input	test
+43	PE12	GPIO_Output	Zarowka
+44	PE13	GPIO_EXTI13	CLK230V
+45	PE14	GPIO_Input	IN_433
+46	PE15	GPIO_Output	OUT_433
+47	PB10*	I2C2_SCL	
+48	PB11*	I2C2_SDA	
+51	PB12*	LCD_SEG12	
+52	PB13*	LCD_SEG13	
+53	PB14*	LCD_SEG14	
+54	PB15*	LCD_SEG15	
+55	PD8*	LCD_SEG28	
+56	PD9*	LCD_SEG29	
+57	PD10*	LCD_SEG30	
+58	PD11*	LCD_SEG31	
+59	PD12*	LCD_SEG32	
+60	PD13*	LCD_SEG33	
+61	PD14*	LCD_SEG34	
+62	PD15*	LCD_SEG35	
+63	PC6*	LCD_SEG24	
+64	PC7*	LCD_SEG25	
+65	PC8*	LCD_SEG26	
+66	PC9	GPIO_Output	
+67	PA8*	LCD_COM0	
+68	PA9*	LCD_COM1	
+69	PA10*	LCD_COM2	
+70	PA11*	USB_OTG_FS_DM	
+71	PA12*	USB_OTG_FS_DP	
+72	PA13 (JTMS-SWDIO)	SYS_JTMS-SWDIO	
+76	PA14 (JTCK-SWCLK)	SYS_JTCK-SWCLK	
+77	PA15 (JTDI)*	LCD_SEG17	
+78	PC10	GPIO_EXTI10	
+79	PC11	GPIO_Output	
+82	PD1*	SPI2_SCK	
+84	PD3*	SPI2_MISO	
+85	PD4*	SPI2_MOSI	
+86	PD5	USART2_TX	USART_TX
+87	PD6	USART2_RX	USART_RX
+88	PD7	GPIO_Output	
+89	PB3 (JTDO-TRACESWO)	GPIO_Output	
+90	PB4 (NJTRST)*	LCD_SEG8	
+91	PB5*	LCD_SEG9	
+92	PB6*	I2C1_SCL	
+93	PB7*	I2C1_SDA	
+95	PB8	GPIO_EXTI8	
+96	PB9*	LCD_COM3	
+97	PE0	GPIO_Output	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : swiatlo
+Project Folder : D:\projekty\swiatlo
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_L4 V1.11.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : No
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
